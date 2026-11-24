@@ -67,7 +67,11 @@ Naming a criteria set after it takes exactly that sense: **a criterion does not 
 
 `Lite` names the subtraction — criteria layer only — not a claim that it's thin. `Zojuta` is kept as-is with a suffix added: the main library's Latin name shares a `-juta` tail with a sibling library, and breaking the tail would unpair them.
 
-**⚠️ The two image systems are not welded together.** The Zojuta imagery rests on the East Pagoda as a physical object, pointable entry by entry; 籁 comes from the textual sense (the sounds of Heaven in the *Zhuangzi*), not from the physical imagery. They do not form one image system. ⛔ Do not write things like "籁 is the sound the tower makes" — welding the two systems is listed as an honest gap in the main library's naming volume.
+**Where the two images connect.** The East Pagoda is hollow — its eaves and galleries are gone, and openings run through the shaft on every side. Wind passes through them and the tower sounds. That is exactly the shape of **地籁, the sounds of earth**, in the *Zhuangzi*: the wind blows and the ten thousand hollows each sound in their own way. So the tower is not a metaphor bolted onto 籁; the tower *is* the hollow body the wind plays through.
+
+The distinction still has to be stated, or it becomes a weld: **地籁 is sound; 天籁 is the principle that nothing outside is setting the pitch.** The tower's hollow shaft and openings are the *shape* of 地籁 — each hollow sounding by its own shape. The criteria set's position is the *principle* of 天籁 — it does not set the standard for your project. They are two layers of the same passage in the *Zhuangzi*, not two unrelated image systems.
+
+⛔ But do not put it as "籁 = the sound the tower makes": that flattens the principle into a sound, two layers into one. The tower sounding is 地籁; a criterion refusing to set your pitch is 天籁.
 
 ## How to read one criterion
 
