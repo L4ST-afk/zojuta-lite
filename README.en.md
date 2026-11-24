@@ -15,6 +15,8 @@
 
 This is the **criteria layer of the Zojuta main library** — a 2026-11-24 snapshot, 17 volumes, 98 entries.
 
+Zojuta is a general-purpose mother tower of engineering method. The name comes from the East Pagoda on Jiangxin Island in Wenzhou — a tower whose eaves and galleries were stripped away, leaving only the skeleton, with a banyan at its crown standing in for the roof. The criteria layer inherits exactly that skeleton: keep only "which questions are worth asking", keep no ceremony.
+
 The main library is not open source. Only the criteria themselves are here: which questions are worth asking, and how far you have to answer them before a question counts as answered. The runtime layer (gate implementations, self-check scripts, catalog governance, release process) stays in the main library, not in this repo.
 
 ---
@@ -37,6 +39,22 @@ So you'll see a lot of sentences like:
 
 The numbers live in the evidence section, not in the criterion section. Deliberately: a criterion has to hold across projects; a number only holds at the site where it was born.
 
+## What Zojuta is
+
+Zojuta is not an abstract tower. It is the **East Pagoda on Jiangxin Island, Wenzhou** — a physical thing you can point at. Every image in the name lands back on a criterion:
+
+| The physical fact (checkable) | What it becomes in the criteria |
+|---|---|
+| Built in **869 CE** (Tang, Xiantong 10), earlier than the West Pagoda | The tower that judges **process** rises first: process criteria must stand while the work is happening, not be added after it is done |
+| Its eaves and galleries were **torn down under foreign order**; it stands hollow and roofless | Criteria must still hold after outside parties strip the decoration: judge the skeleton (what was done, in what order), ⛔ never the ceremony |
+| A **banyan crowns it**, giving shade where there is no roof | What is missing can be supplied by existing experience: when a criterion has a gap, fill it from general experience rather than inventing a rule |
+| Six sides, seven stories, **each story separately inspectable** | Process can be checked segment by segment: one order, one check, never a whole impression |
+| Served as a **navigation mark alongside the West Pagoda** for 800 years | Criteria must navigate for others: readability outranks completeness — if others can't read it, it isn't compliance |
+
+The two pagodas judge two different things: **the East judges "was this step done right"** (present, segment by segment, re-checkable), **the West judges "has this person actually changed"** (delayed, scored, requiring an evidence ledger). Merge them into one and you get the old failure of settling a result claim with process compliance — a counter-example the main library writes down explicitly.
+
+The Latin slot `Zojuta` shares a `-juta` tail with the West Pagoda `Quojuta`, distinguished by the head `Zo-`. `Zo` takes the Suzhou reading of 禅, `zoe` (the Wenzhou reading `ji` would give `Jijuta`, an awkward `j-j` cluster); the last two segments stay Wenzhou: `ju` for 院 `jy`, `ta` for 塔 `tʰa`. It is the main library's single cross-dialect borrowing, and the reason is fixed in writing there.
+
 ## Why it's called 籁 (lài)
 
 籁 comes from the *Zhuangzi*, "Discussion on Making All Things Equal" (齐物论). Ziqi has finished describing the sounds of earth and the sounds of men; Ziyou asks about the sounds of Heaven. The answer:
@@ -48,6 +66,8 @@ The wind blows, and the ten thousand hollows each sound differently — yet noth
 Naming a criteria set after it takes exactly that sense: **a criterion does not set the standard for your project; it makes you ask the questions your project's own shape calls for.**
 
 `Lite` names the subtraction — criteria layer only — not a claim that it's thin. `Zojuta` is kept as-is with a suffix added: the main library's Latin name shares a `-juta` tail with a sibling library, and breaking the tail would unpair them.
+
+**⚠️ The two image systems are not welded together.** The Zojuta imagery rests on the East Pagoda as a physical object, pointable entry by entry; 籁 comes from the textual sense (the sounds of Heaven in the *Zhuangzi*), not from the physical imagery. They do not form one image system. ⛔ Do not write things like "籁 is the sound the tower makes" — welding the two systems is listed as an honest gap in the main library's naming volume.
 
 ## How to read one criterion
 
