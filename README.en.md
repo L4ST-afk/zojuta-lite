@@ -98,7 +98,69 @@ Note the last clause — *not against a number the subject reports about itself*
 
 **How to use it**: don't read front to back. Go looking with the thing you're doing right now — you just wrote a gate, go to `02b`; you're reconciling, go to `01b`; you're signing off a delivery, go to `06`. Find the entry, read its criterion, ask yourself whether this run counts.
 
+### Three ways to use it: know which reader you are
+
+One set of criteria, three very different sets of moves. ⛔ Don't borrow someone else's method.
+
+| You are | What you do | Where you enter | What you get |
+|---|---|---|---|
+| **A person**, doing the work, wanting to check yourself | Take the one thing in front of you into a volume and ask, entry by entry, "does this run count as a violation?" | §Contents → the volume → the criterion | A verdict in three grades: violation / no violation / insufficient evidence |
+| **A person**, reviewing someone else's work | Pick 3–5 entries via the reverse lookup below, make them a short checklist, and write a line per item while reviewing | "Find the volume by situation" below | A checklist you can paste into the review record |
+| **An agent**, wanting the model to hold the line itself | Rewrite **the criterion paragraph** as "must / must not" and put it in a system prompt or a gate description | the volume → criterion → rewrite | One condition that can be judged true or false |
+| **An author**, writing your own standard | Borrow the question, not the numbers; derive thresholds on your own ground | any similar volume | Your own rubric draft |
+
+⛔ What none of the three should do: read all 113 entries front to back. You won't retain them; you'll keep a few images instead.
+
+#### Usage 1 · Self-check: one person, one thing, one hour
+
+Pick something you're finishing, enter a volume from the situation table, read only 1–3 entries. Answer each in three grades: **violation / no violation / insufficient evidence**. "Can't tell" is insufficient evidence — the criterion is telling you to go get a reading, not to force a verdict.
+
+> **Self-check sample** (first entry of `02a-断言记账`)
+>
+> - If I delete one assertion and edit the transcript in step, does the check still pass? If yes → violation.
+> - The number I use to judge "passed" — is it reported by the subject itself, or an independently set floor? Self-reported → violation.
+
+#### Usage 2 · As a rule source for an agent
+
+Rewrite **only the criterion paragraph**. The problem and evidence paragraphs are context for humans; pouring the whole volume into a prompt just dilutes the instruction.
+
+> **Rule sample sentence** (same entry)
+>
+> The pass condition of the check must not be taken from counts the subject reports about itself. Execution count and static call-site count must be two independent floors, and may only be raised, never lowered; lowering either makes this change non-compliant.
+
+Three conditions for a rewrite — miss one, don't put it in a prompt: ① the subject is "must / must not", not "should consider"; ② it carries a comparison that can be judged true or false (a number, a state, whether something exists); ③ it carries no project names or concrete numbers from this collection.
+
+#### Usage 3 · Writing your own rubric
+
+Borrow the question, not the numbers. Turn the problem paragraph into your check item and the criterion paragraph into your pass condition; leave the threshold value to your own ground — the first entry of `01a-阈值与对照` says exactly why it can't be copied from a document.
+
+### The fifteen-minute path
+
+1. Open the contents table, pick **one** volume from the situation table below. One.
+2. Pick **one** entry in that volume and read all four paragraphs — about three minutes.
+3. Answer once against the thing in your hands: violation / no violation / insufficient evidence.
+4. Write the verdict as one line: "volume·entry · verdict · the reading or file it rests on".
+5. Do it again with another entry. After three, you'll know which volume you should live in.
+
+After those five steps you're not holding "a collection to read" — you're holding a checklist.
+
+### Find the volume by situation
+
+| What I'm doing | Go to | Ask this first |
+|---|---|---|
+| Setting a threshold, running a control | [`01a`](criteria/01a-阈值与对照.md) (9) | Is this floor back-derived from actual results, or copied from a document? |
+| Counting runs, measuring coverage, calibrating an instrument | [`01b`](criteria/01b-口径与计数.md) (9) | Is the counting convention defined first? Has the instrument been re-checked? |
+| Writing assertions, editing tests | [`02a`](criteria/02a-断言记账.md) (5) | Does it still pass with one assertion deleted? Is every non-PASS entry booked? |
+| Writing a gate, adding a check | [`02b`](criteria/02b-闸门设计.md) (9) | Has this gate ever gone red? Does red mean the world actually changed? |
+| Writing to disk, migrating, anything with side effects | [`05`](criteria/05-副作用与写入安全.md) (7) | What is the evidence before, during and after the write? |
+| Reconciling, accepting, delivering | [`06`](criteria/06-交付与验收.md) (8) | Which layer of done are you at? Does a preview passing mean delivery passed? |
+| Parallel sessions, handover, review | [`07`](criteria/07-协作与评审.md) (12) | Did you hand over the verdict or the evidence? Did the retelling drift? |
+| Chasing a nondeterministic bug, probing | [`08`](criteria/08-探测与瓶颈.md) (8) | Have you fixed the shape first, or are you burning calls? |
+| Moving data, archiving, changing machines | [`09`](criteria/09-迁移与归档.md) (3) | Is it a byte-for-byte move? Did the full hashes reconcile? |
+
 ## Contents (17 volumes / 113 entries)
+
+> This table is organised by volume, for orientation. If you have one specific thing in hand and don't know which volume, use "Find the volume by situation" above.
 
 | Volume | Entries | Covers |
 |---|---|---|

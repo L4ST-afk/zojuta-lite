@@ -4,6 +4,13 @@
 
 This repository is a **criteria-layer snapshot**, not the master library. In keeping with that, this file records only this repository's own landing and changes, and makes no claim to track the master.
 
+## 0.2.2 — 2026-11-25 (entry points added to the README; criteria untouched)
+
+- Both language versions gain three sections after "How to read one criterion": **three kinds of reader** (self-check / review / agent rule source / your own rubric), **the fifteen-minute path**, and **find the volume by situation** (a 9-row reverse lookup linking each volume).
+- One copyable sample each for self-check and agent rules, both rewritten from the first entry of `02a`; the three rewrite conditions are stated: subject is "must / must not", carries a true-or-false comparison, carries no project names or numbers from this collection.
+- One navigation line above the contents table: the table is organised by volume; if you have one specific thing in hand, use the situation table.
+- The 113 entries, their four-part structure, volume counts and redaction policy: untouched.
+
 ## 0.2.1 — 2026-11-25 (licence changed from Apache-2.0 to CC BY 4.0)
 
 - This collection is criteria text, not software: Apache 2.0's patent clause has nothing to license here, and the NOTICE carriage obligation only adds friction for quoters. Moved to CC BY 4.0 — commercial use still allowed, attribution and change marking unchanged (§3(a)(1)).
