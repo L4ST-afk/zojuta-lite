@@ -13,7 +13,7 @@
 > *So it is taken as the method: trace its origin, demand its measurement, judge only what holds now;*
 > *no borrowed rhetoric, no imposed hierarchy — everything kept must still stand elsewhere.*
 
-This is the **criteria layer of the Zojuta main library** — a 2026-11-24 snapshot, 17 volumes, 98 entries.
+This is the **criteria layer of the Zojuta main library** — a 2026-11-24 snapshot with a 2026-11-25 supplement, 17 volumes, 113 entries.
 
 Zojuta is a general-purpose mother tower of engineering method. The name comes from the East Pagoda on Jiangxin Island in Wenzhou — a tower whose eaves and galleries were stripped away, leaving only the skeleton, with a banyan at its crown standing in for the roof. The criteria layer inherits exactly that skeleton: keep only "which questions are worth asking", keep no ceremony.
 
@@ -23,7 +23,7 @@ The main library is not open source. Only the criteria themselves are here: whic
 
 ## What this is, and what it isn't
 
-**Is**: 98 criteria, each able to answer one question — *does this run of mine count as a violation?*
+**Is**: 113 criteria, each able to answer one question — *does this run of mine count as a violation?*
 
 **Isn't**: a checklist, a template, a best-practices collection.
 
@@ -53,7 +53,7 @@ Zojuta is not an abstract tower. It is the **East Pagoda on Jiangxin Island, Wen
 
 The two pagodas judge two different things: **the East judges "was this step done right"** (present, segment by segment, re-checkable), **the West judges "has this person actually changed"** (delayed, scored, requiring an evidence ledger). Merge them into one and you get the old failure of settling a result claim with process compliance — a counter-example the main library writes down explicitly.
 
-The Latin slot `Zojuta` shares a `-juta` tail with the West Pagoda `Quojuta`, distinguished by the head `Zo-`. `Zo` takes the Suzhou reading of 禅, `zoe` (the Wenzhou reading `ji` would give `Jijuta`, an awkward `j-j` cluster); the last two segments stay Wenzhou: `ju` for 院 `jy`, `ta` for 塔 `tʰa`. It is the main library's single cross-dialect borrowing, and the reason is fixed in writing there.
+The Latin slot `Zojuta` shares a `-juta` tail with another tower in the same family, distinguished by the head `Zo-`. `Zo` takes the Suzhou reading of 禅, `zoe` (the Wenzhou reading `ji` would give `Jijuta`, an awkward `j-j` cluster); the last two segments stay Wenzhou: `ju` for 院 `jy`, `ta` for 塔 `tʰa`. It is the main library's single cross-dialect borrowing, and the reason is fixed in writing there.
 
 ## Why it's called 籁 (lài)
 
@@ -98,23 +98,23 @@ Note the last clause — *not against a number the subject reports about itself*
 
 **How to use it**: don't read front to back. Go looking with the thing you're doing right now — you just wrote a gate, go to `02b`; you're reconciling, go to `01b`; you're signing off a delivery, go to `06`. Find the entry, read its criterion, ask yourself whether this run counts.
 
-## Contents (17 volumes / 98 entries)
+## Contents (17 volumes / 113 entries)
 
 | Volume | Entries | Covers |
 |---|---|---|
 | [`00-定名`](criteria/00-定名.md) | — | Where the name comes from (not criteria; sits at the front) |
-| [`01a-阈值与对照`](criteria/01a-阈值与对照.md) | 6 | Thresholds need a physical basis; comparisons must be same-source, same-environment |
-| [`01b-口径与计数`](criteria/01b-口径与计数.md) | 8 | Define the counting convention first; the measuring instrument needs checking too |
+| [`01a-阈值与对照`](criteria/01a-阈值与对照.md) | 9 | Thresholds need a physical basis; comparisons must be same-source, same-environment |
+| [`01b-口径与计数`](criteria/01b-口径与计数.md) | 9 | Define the counting convention first; the measuring instrument needs checking too |
 | [`02a-断言记账`](criteria/02a-断言记账.md) | 5 | Assertion-count floors, booking non-PASS results, criteria must be executable |
-| [`02b-闸门设计`](criteria/02b-闸门设计.md) | 6 | A gate must be able to go red, and red must mean the world changed |
+| [`02b-闸门设计`](criteria/02b-闸门设计.md) | 9 | A gate must be able to go red, and red must mean the world changed |
 | [`03a-锚点与引用`](criteria/03a-锚点与引用.md) | 7 | Anchor validity needs a convention; an excerpt is evidence |
 | [`03b-解析与切块`](criteria/03b-解析与切块.md) | 7 | Stable identity for parsed lines, structural skeleton, dedup |
 | [`04a-状态真相`](criteria/04a-状态真相.md) | 6 | On disk, or an API returning 200, still isn't "in use" |
-| [`04b-就绪与收敛`](criteria/04b-就绪与收敛.md) | 7 | Self-check saying ready isn't "in use"; baselines refresh only on write |
+| [`04b-就绪与收敛`](criteria/04b-就绪与收敛.md) | 9 | Self-check saying ready isn't "in use"; baselines refresh only on write |
 | [`05-副作用与写入安全`](criteria/05-副作用与写入安全.md) | 7 | What evidence you need before, during, and after a write |
-| [`06-交付与验收`](criteria/06-交付与验收.md) | 7 | Completion has four layers; a preview passing isn't a delivery passing |
-| [`07-协作与评审`](criteria/07-协作与评审.md) | 8 | Parallel seats, handoff, relay, triaging external models |
-| [`08-探测与瓶颈`](criteria/08-探测与瓶颈.md) | 7 | The economics of probing: fix the shape before you talk about calls |
+| [`06-交付与验收`](criteria/06-交付与验收.md) | 8 | Completion has four layers; a preview passing isn't a delivery passing |
+| [`07-协作与评审`](criteria/07-协作与评审.md) | 12 | Parallel seats, handoff, relay, triaging external models |
+| [`08-探测与瓶颈`](criteria/08-探测与瓶颈.md) | 8 | The economics of probing: fix the shape before you talk about calls |
 | [`09-迁移与归档`](criteria/09-迁移与归档.md) | 3 | Whole-tree byte-exact moves, full hash reconciliation, compute goes to the data |
 | [`10-排版与渲染`](criteria/10-排版与渲染.md) | 6 | Metrics, increments, three-way comparison, end-to-end build |
 | [`11-依赖与就绪`](criteria/11-依赖与就绪.md) | 5 | A name isn't an existence; conjunctive conditions need each end proven |
@@ -130,7 +130,7 @@ So they share one feature: **they all point at "looks right but isn't."** That's
 
 ## Snapshot notice
 
-**This repo is a 2026-11-24 snapshot: 98 entries. It does not track the main library.**
+**This repo takes the 2026-11-24 snapshot as its baseline, with one disciplined supplement on 2026-11-25: 113 entries. It still does not track the main library automatically.**
 
 The main library is still growing (374 entries at present), and the redaction screening was done entry by entry, not as an automated pipeline. So what you have here is "what this criteria set looks like," not "the latest version."
 
@@ -155,4 +155,4 @@ Apache 2.0 grants no trademark rights (§6) — the names 禅院塔·籁 and Zoj
 
 ---
 
-**Zojuta Lite (禅院塔·籁)** · criteria-layer snapshot 2026-11-24 · 98 entries / 17 volumes
+**Zojuta Lite (禅院塔·籁)** · criteria-layer snapshot 2026-11-24 · supplemented 2026-11-25 · 113 entries / 17 volumes

@@ -4,6 +4,21 @@
 
 This repository is a **criteria-layer snapshot**, not the master library. In keeping with that, this file records only this repository's own landing and changes, and makes no claim to track the master.
 
+## 0.2.0 — 2026-11-25 (one disciplined supplement: +15 entries, 98 → 113)
+
+- **15 entries added after rewrite**: selected one by one from the master's §2.374–§2.393 delta;
+  2 were dropped (general point already covered, rest is runtime implementation), 15 rewritten
+  as "principles that stand elsewhere" and filed into volumes. Each keeps the four-part
+  problem/mechanism/evidence/criterion structure plus a redaction note.
+- **Filing**: `02b` +3, `01a` +3, `01b` +1, `04b` +2, `07` +4, `08` +1, `06` +1 — now 17 volumes, 113 entries.
+- **Redaction**: project names, paths, internal IDs, script names, commands, field names, model names,
+  dates, and reverse-traceable precise readings all removed or made relative; §2.389 and §2.390
+  (same layer) merged into one.
+- **Statement synced**: Chinese and English READMEs and the snapshot statement now read "baseline
+  2026-11-24 snapshot, one supplement 2026-11-25, still not tracking the master automatically".
+  This is not the start of tracking — it is a one-time manual selection.
+- **Boundary unchanged**: still a criteria-layer snapshot, no runtime code; outward check still required before push.
+
 ## 0.1.0 — 2026-11-24 (first landing, snapshot fixed)
 
 - **17 volumes / 98 criteria** landed, grouped by theme, under `criteria/`.
