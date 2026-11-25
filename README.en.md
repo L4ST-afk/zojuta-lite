@@ -111,6 +111,8 @@ One set of criteria, three very different sets of moves. ⛔ Don't borrow someon
 
 ⛔ What none of the three should do: read all 113 entries front to back. You won't retain them; you'll keep a few images instead.
 
+![Three kinds of reader, four different paths: self-check, review, agent rule source, author's own standard - each with its own entry point, moves and output](docs/readers-path.en.svg)
+
 #### Usage 1 · Self-check: one person, one thing, one hour
 
 Pick something you're finishing, enter a volume from the situation table, read only 1–3 entries. Answer each in three grades: **violation / no violation / insufficient evidence**. "Can't tell" is insufficient evidence — the criterion is telling you to go get a reading, not to force a verdict.

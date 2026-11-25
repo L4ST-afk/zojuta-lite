@@ -4,6 +4,12 @@
 
 This repository is a **criteria-layer snapshot**, not the master library. In keeping with that, this file records only this repository's own landing and changes, and makes no claim to track the master.
 
+## 0.2.3 — 2026-11-25 (a reader-path diagram added; criteria untouched)
+
+- New `docs/readers-path.zh.svg` and `docs/readers-path.en.svg`: three kinds of reader, four paths, drawn as one row per path — who on the left, the two or three moves in the middle, the output on the right.
+- Each README embeds its own language version right after "What none of the three should do"; licence follows the body text, CC BY 4.0.
+- The diagram carries only reading moves (pick a volume, pick an entry, answer in three grades, borrow the question, derive the threshold); no project names, no entry text, no numbers. The 113 entries, their four-part structure and redaction policy: untouched.
+
 ## 0.2.2 — 2026-11-25 (entry points added to the README; criteria untouched)
 
 - Both language versions gain three sections after "How to read one criterion": **three kinds of reader** (self-check / review / agent rule source / your own rubric), **the fifteen-minute path**, and **find the volume by situation** (a 9-row reverse lookup linking each volume).
