@@ -142,16 +142,22 @@ If you find an entry whose evidence section was redacted into something that no 
 
 ## License and attribution
 
-**Apache License 2.0** — full text in [LICENSE](LICENSE), copyright attribution in [NOTICE](NOTICE).
+**Creative Commons Attribution 4.0 International (CC BY 4.0)** — full text in [LICENSE](LICENSE),
+attribution and copyright in [NOTICE](NOTICE).
 
-Apache 2.0 rather than MIT, because it pins down two things that matter materially for a criteria set:
+This collection is criteria text, not software, so it uses neither Apache 2.0 nor MIT: what it wants
+is for the content to be freely quoted, excerpted, put into curricula and review checklists. CC BY 4.0
+is the general licence at exactly that scale — commercial use included, and no obligation to paste
+our full licence into your product.
 
-- **Patent grant (§3)**: contributors explicitly grant a patent licence. This collection gets applied to real engineering, and users need that certainty.
-- **Attribution and change marking (§4)**: redistribution must keep the copyright notice, the full licence text and the NOTICE; modified files must carry a prominent statement of what changed.
+The trade-off, stated plainly: CC BY 4.0 **grants no patent or trademark rights (§2(b)(2))**. There is
+no code and no implementation here, so a patent clause would have nothing to license; the names
+禅院塔·籁 and Zojuta Lite are likewise not licensed along with the text.
 
-**Attribution requirement** (how §4 lands here): when you use, modify, or distribute this, keep `Copyright (c) 2026 L4ST-afk`, keep the full [LICENSE](LICENSE) text, keep [NOTICE](NOTICE); if you changed the content and redistribute it, state at the change what you changed.
-
-Apache 2.0 grants no trademark rights (§6) — the names 禅院塔·籁 and Zojuta Lite are not licensed along with the text.
+**Attribution requirement** (§3(a)(1)): when you use, excerpt or redistribute, keep
+`Copyright (c) 2026 L4ST-afk`, name the licence (CC BY 4.0) and link to it; if you changed the content
+and redistribute it, state at the change what you changed (§3(a)(1)(B)). Quoting a handful of entries
+still counts as use and still needs attribution — but not the full licence text.
 
 ---
 

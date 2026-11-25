@@ -4,6 +4,12 @@
 
 This repository is a **criteria-layer snapshot**, not the master library. In keeping with that, this file records only this repository's own landing and changes, and makes no claim to track the master.
 
+## 0.2.1 — 2026-11-25 (licence changed from Apache-2.0 to CC BY 4.0)
+
+- This collection is criteria text, not software: Apache 2.0's patent clause has nothing to license here, and the NOTICE carriage obligation only adds friction for quoters. Moved to CC BY 4.0 — commercial use still allowed, attribution and change marking unchanged (§3(a)(1)).
+- `LICENSE` replaced with the official CC BY 4.0 legal code (396 lines); `NOTICE` rewritten for licence, attribution and trademark (now citing §2(b)(2)).
+- The 113 entries across 17 volumes, their four-part structure and redaction policy: untouched.
+
 ## 0.2.0 — 2026-11-25 (one disciplined supplement: +15 entries, 98 → 113)
 
 - **15 entries added after rewrite**: selected one by one from the master's §2.374–§2.393 delta;

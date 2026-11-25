@@ -1,25 +1,27 @@
 禅院塔·籁（Zojuta Lite）
 Copyright (c) 2026 L4ST-afk
 
-This product is licensed under the Apache License, Version 2.0.
-The full licence text is in LICENSE.
+本作品以 Creative Commons Attribution 4.0 International（CC BY 4.0）发布。
+许可全文见 LICENSE，亦见 https://creativecommons.org/licenses/by/4.0/
 
 ---
 
-本作品以 Apache License 2.0 发布，许可全文见 LICENSE。
-
-本仓内容为判据层快照（2026-11-24，17 卷 98 条），全部判据正文由本项目独立撰写，
-不含任何第三方资产、代码或字体文件，故无第三方许可需要随附。
+本仓内容为判据层快照（2026-11-24，2026-11-25 增补，17 卷 113 条），全部判据正文
+由本项目独立撰写，不含任何第三方资产、代码或字体文件，故无第三方许可需要随附。
 
 判据的原始素材来自本项目自身工程实践中的实测记录。凡涉及具体项目名、路径、
 内部编号、日期与可反查精确读数者，已在收录时剥离或转为相对量。
 
 ---
 
-Trademark notice: Apache License 2.0 does not grant trademark rights (§6).
-The names 禅院塔·籁 and Zojuta Lite, and any associated marks, are not licensed
-with the text and may not be used to endorse or promote derived works without
-separate permission.
+署名与商标
+----------
 
-商标声明：Apache License 2.0 不授予商标权（§6）。「禅院塔·籁」「Zojuta Lite」
-及相应用名不随正文许可一并授权，未经另行许可不得用于背书或推广衍生作品。
+CC BY 4.0 要求署名（§3(a)(1)）：使用、摘编或分发时，保留 `Copyright (c) 2026 L4ST-afk`，
+标明许可名称（CC BY 4.0）并给出许可链接；改过内容再分发，在改动处注明改动（§3(a)(1)(B)）。
+只摘用其中若干条判据同样算使用，同样需要署名，但不必连带整份许可全文。
+
+CC BY 4.0 不授予专利与商标权（§2(b)(2)）。「禅院塔·籁」「Zojuta Lite」这两个名字
+不随正文许可一并授权，未经另行许可不得用于背书或推广衍生作品。
+
+CC BY 4.0 不提供担保：本集是判断参考，不对任何具体工程的合规结果负责。
