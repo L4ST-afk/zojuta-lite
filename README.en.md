@@ -113,6 +113,8 @@ One set of criteria, three very different sets of moves. ⛔ Don't borrow someon
 
 ![Three kinds of reader, four different paths: self-check, review, agent rule source, author's own standard - each with its own entry point, moves and output](docs/readers-path.en.svg)
 
+On a narrow screen this diagram scales down too far to read; use the table above, which says the same thing.
+
 #### Usage 1 · Self-check: one person, one thing, one hour
 
 Pick something you're finishing, enter a volume from the situation table, read only 1–3 entries. Answer each in three grades: **violation / no violation / insufficient evidence**. "Can't tell" is insufficient evidence — the criterion is telling you to go get a reading, not to force a verdict.

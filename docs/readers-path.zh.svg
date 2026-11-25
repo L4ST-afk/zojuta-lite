@@ -1,62 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="700" viewBox="0 0 1180 700" font-family="'Noto Sans CJK SC','Source Han Sans SC','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="700" viewBox="0 0 1180 700" font-family="'Noto Sans CJK SC','Source Han Sans SC','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif" role="img">
+<title>三种人，四条不同的路：自查、评审、agent 规则源、作者写规范，各自的起点、动作与产出</title>
+<desc>四行对照图。左列是读者身份，中列是该身份要做的两三步动作，右列是这一步的产出。</desc>
 <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2F4F43"/></marker></defs>
-<rect x="0" y="0" width="1180" height="700" rx="0" fill="#FAF8F3" stroke="#FAF8F3" stroke-width="0"/>
-<text x="44" y="58" font-size="24" font-weight="600" fill="#33312C" text-anchor="start">三种人，四条不同的路</text>
-<text x="44" y="84" font-size="13" font-weight="400" fill="#7A7469" text-anchor="start">同一套 113 条判据；人分两种身份，再加 agent 与作者</text>
-<text x="46" y="124" font-size="11" font-weight="400" fill="#948D80" text-anchor="start">你是</text>
-<text x="292" y="124" font-size="11" font-weight="400" fill="#948D80" text-anchor="start">你的动作</text>
-<text x="782" y="124" font-size="11" font-weight="400" fill="#948D80" text-anchor="start">你拿到</text>
-<rect x="44" y="140" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#C9C2B4" stroke-width="1.2"/>
-<text x="58" y="174" font-size="15" font-weight="600" fill="#2F4F43" text-anchor="start">人 · 自查</text>
-<text x="58" y="198" font-size="12" font-weight="400" fill="#7A7469" text-anchor="start">手上正有一件事</text>
+<rect x="0" y="0" width="1180" height="700" rx="0" fill="#FAF8F3" stroke="#FAF8F3" stroke-width="0.0"/>
+<text x="44" y="58" font-size="24.0" font-weight="600" fill="#33312C" text-anchor="start">三种人，四条不同的路</text>
+<text x="44" y="84" font-size="13.5" font-weight="400" fill="#726C60" text-anchor="start">同一套 113 条判据；人分两种身份，再加 agent 与作者</text>
+<text x="46" y="124" font-size="12.5" font-weight="400" fill="#6E6857" text-anchor="start">你是</text>
+<text x="292" y="124" font-size="12.5" font-weight="400" fill="#6E6857" text-anchor="start">你的动作</text>
+<text x="782" y="124" font-size="12.5" font-weight="400" fill="#6E6857" text-anchor="start">你拿到</text>
+<rect x="44" y="140" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#858072" stroke-width="1.0"/>
+<text x="58" y="174" font-size="15.5" font-weight="600" fill="#2F4F43" text-anchor="start">人 · 自查</text>
+<text x="58" y="198" font-size="12.5" font-weight="400" fill="#726C60" text-anchor="start">手上正有一件事</text>
 <path d="M250 188 H286" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
-<rect x="290" y="169" width="72" height="38" rx="9" fill="#F2EFE7" stroke="#D6CFC0" stroke-width="1"/>
-<text x="326" y="193" font-size="13" font-weight="400" fill="#33312C" text-anchor="middle">挑一卷</text>
-<path d="M370 188 H384" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
-<rect x="392" y="169" width="72" height="38" rx="9" fill="#F2EFE7" stroke="#D6CFC0" stroke-width="1"/>
-<text x="428" y="193" font-size="13" font-weight="400" fill="#33312C" text-anchor="middle">挑一条</text>
-<path d="M472 188 H486" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
-<rect x="494" y="169" width="72" height="38" rx="9" fill="#F2EFE7" stroke="#D6CFC0" stroke-width="1"/>
-<text x="530" y="193" font-size="13" font-weight="400" fill="#33312C" text-anchor="middle">答三档</text>
-<path d="M580 188 H772" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
-<rect x="784" y="156" width="352" height="64" rx="10" fill="#FFFFFF" stroke="#C9C2B4" stroke-width="1.2"/>
-<text x="800" y="191" font-size="13" font-weight="400" fill="#33312C" text-anchor="start">一行结论：违规／不违规／证据不足</text>
-<rect x="44" y="262" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#C9C2B4" stroke-width="1.2"/>
-<text x="58" y="296" font-size="15" font-weight="600" fill="#2F4F43" text-anchor="start">人 · 评审</text>
-<text x="58" y="320" font-size="12" font-weight="400" fill="#7A7469" text-anchor="start">要给别人评</text>
+<rect x="290" y="169" width="72" height="38" rx="9" fill="#F2EFE7" stroke="#858072" stroke-width="1.0"/>
+<text x="326" y="193" font-size="13.5" font-weight="400" fill="#33312C" text-anchor="middle">挑一卷</text>
+<path d="M370 188 H392" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+<rect x="396" y="169" width="72" height="38" rx="9" fill="#F2EFE7" stroke="#858072" stroke-width="1.0"/>
+<text x="432" y="193" font-size="13.5" font-weight="400" fill="#33312C" text-anchor="middle">挑一条</text>
+<path d="M476 188 H498" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+<rect x="502" y="169" width="72" height="38" rx="9" fill="#F2EFE7" stroke="#858072" stroke-width="1.0"/>
+<text x="538" y="193" font-size="13.5" font-weight="400" fill="#33312C" text-anchor="middle">答三档</text>
+<path d="M588 188 H772" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+<rect x="784" y="140" width="352" height="96" rx="10" fill="#FFFFFF" stroke="#858072" stroke-width="1.0"/>
+<text x="800" y="191" font-size="13.5" font-weight="400" fill="#33312C" text-anchor="start">一行结论：违规／不违规／证据不足</text>
+<rect x="44" y="262" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#858072" stroke-width="1.0"/>
+<text x="58" y="296" font-size="15.5" font-weight="600" fill="#2F4F43" text-anchor="start">人 · 评审</text>
+<text x="58" y="320" font-size="12.5" font-weight="400" fill="#726C60" text-anchor="start">要给别人评</text>
 <path d="M250 310 H286" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
-<rect x="290" y="291" width="99" height="38" rx="9" fill="#F2EFE7" stroke="#D6CFC0" stroke-width="1"/>
-<text x="339" y="315" font-size="13" font-weight="400" fill="#33312C" text-anchor="middle">挑三到五条</text>
-<path d="M397 310 H411" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
-<rect x="419" y="291" width="86" height="38" rx="9" fill="#F2EFE7" stroke="#D6CFC0" stroke-width="1"/>
-<text x="462" y="315" font-size="13" font-weight="400" fill="#33312C" text-anchor="middle">做成清单</text>
-<path d="M519 310 H772" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
-<rect x="784" y="278" width="352" height="64" rx="10" fill="#FFFFFF" stroke="#C9C2B4" stroke-width="1.2"/>
-<text x="800" y="313" font-size="13" font-weight="400" fill="#33312C" text-anchor="start">一份能贴进评审记录的清单</text>
-<rect x="44" y="384" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#C9C2B4" stroke-width="1.2"/>
-<text x="58" y="418" font-size="15" font-weight="600" fill="#2F4F43" text-anchor="start">agent · 规则源</text>
-<text x="58" y="442" font-size="12" font-weight="400" fill="#7A7469" text-anchor="start">要让模型守住</text>
+<rect x="290" y="291" width="99" height="38" rx="9" fill="#F2EFE7" stroke="#858072" stroke-width="1.0"/>
+<text x="339" y="315" font-size="13.5" font-weight="400" fill="#33312C" text-anchor="middle">挑三到五条</text>
+<path d="M397 310 H419" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+<rect x="423" y="291" width="86" height="38" rx="9" fill="#F2EFE7" stroke="#858072" stroke-width="1.0"/>
+<text x="466" y="315" font-size="13.5" font-weight="400" fill="#33312C" text-anchor="middle">做成清单</text>
+<path d="M523 310 H772" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+<rect x="784" y="262" width="352" height="96" rx="10" fill="#FFFFFF" stroke="#858072" stroke-width="1.0"/>
+<text x="800" y="313" font-size="13.5" font-weight="400" fill="#33312C" text-anchor="start">一份能贴进评审记录的清单</text>
+<rect x="44" y="384" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#858072" stroke-width="1.0"/>
+<text x="58" y="418" font-size="15.5" font-weight="600" fill="#2F4F43" text-anchor="start">agent · 规则源</text>
+<text x="58" y="442" font-size="12.5" font-weight="400" fill="#726C60" text-anchor="start">要让模型守住</text>
 <path d="M250 432 H286" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
-<rect x="290" y="413" width="99" height="38" rx="9" fill="#F2EFE7" stroke="#D6CFC0" stroke-width="1"/>
-<text x="339" y="437" font-size="13" font-weight="400" fill="#33312C" text-anchor="middle">只改判据段</text>
-<path d="M397 432 H411" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
-<rect x="419" y="413" width="86" height="38" rx="9" fill="#F2EFE7" stroke="#D6CFC0" stroke-width="1"/>
-<text x="462" y="437" font-size="13" font-weight="400" fill="#33312C" text-anchor="middle">过三条件</text>
-<path d="M519 432 H772" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
-<rect x="784" y="400" width="352" height="64" rx="10" fill="#FFFFFF" stroke="#C9C2B4" stroke-width="1.2"/>
-<text x="800" y="435" font-size="13" font-weight="400" fill="#33312C" text-anchor="start">一条可判真假的通过条件</text>
-<rect x="44" y="506" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#C9C2B4" stroke-width="1.2"/>
-<text x="58" y="540" font-size="15" font-weight="600" fill="#2F4F43" text-anchor="start">作者 · 写规范</text>
-<text x="58" y="564" font-size="12" font-weight="400" fill="#7A7469" text-anchor="start">要写自己的规范</text>
+<rect x="290" y="413" width="99" height="38" rx="9" fill="#F2EFE7" stroke="#858072" stroke-width="1.0"/>
+<text x="339" y="437" font-size="13.5" font-weight="400" fill="#33312C" text-anchor="middle">只改判据段</text>
+<path d="M397 432 H419" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+<rect x="423" y="413" width="86" height="38" rx="9" fill="#F2EFE7" stroke="#858072" stroke-width="1.0"/>
+<text x="466" y="437" font-size="13.5" font-weight="400" fill="#33312C" text-anchor="middle">过三道关</text>
+<path d="M523 432 H772" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+<rect x="784" y="384" width="352" height="96" rx="10" fill="#FFFFFF" stroke="#858072" stroke-width="1.0"/>
+<text x="800" y="435" font-size="13.5" font-weight="400" fill="#33312C" text-anchor="start">一条可判真假的通过条件</text>
+<rect x="44" y="506" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#858072" stroke-width="1.0"/>
+<text x="58" y="540" font-size="15.5" font-weight="600" fill="#2F4F43" text-anchor="start">作者 · 写规范</text>
+<text x="58" y="564" font-size="12.5" font-weight="400" fill="#726C60" text-anchor="start">要写自己的规范</text>
 <path d="M250 554 H286" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
-<rect x="290" y="535" width="72" height="38" rx="9" fill="#F2EFE7" stroke="#D6CFC0" stroke-width="1"/>
-<text x="326" y="559" font-size="13" font-weight="400" fill="#33312C" text-anchor="middle">借问法</text>
-<path d="M370 554 H384" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
-<rect x="392" y="535" width="99" height="38" rx="9" fill="#F2EFE7" stroke="#D6CFC0" stroke-width="1"/>
-<text x="441" y="559" font-size="13" font-weight="400" fill="#33312C" text-anchor="middle">阈值自反推</text>
-<path d="M505 554 H772" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
-<rect x="784" y="522" width="352" height="64" rx="10" fill="#FFFFFF" stroke="#C9C2B4" stroke-width="1.2"/>
-<text x="800" y="557" font-size="13" font-weight="400" fill="#33312C" text-anchor="start">你自己的 rubric 草稿</text>
-<text x="46" y="662" font-size="15" font-weight="600" fill="#A8443C" text-anchor="start">✕</text>
-<text x="66" y="662" font-size="13" font-weight="400" fill="#7A7469" text-anchor="start">谁都别从这里开始：把 113 条从头读完。</text>
+<rect x="290" y="535" width="72" height="38" rx="9" fill="#F2EFE7" stroke="#858072" stroke-width="1.0"/>
+<text x="326" y="559" font-size="13.5" font-weight="400" fill="#33312C" text-anchor="middle">借问法</text>
+<path d="M370 554 H392" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+<rect x="396" y="535" width="86" height="38" rx="9" fill="#F2EFE7" stroke="#858072" stroke-width="1.0"/>
+<text x="439" y="559" font-size="13.5" font-weight="400" fill="#33312C" text-anchor="middle">自推阈值</text>
+<path d="M496 554 H772" stroke="#2F4F43" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+<rect x="784" y="506" width="352" height="96" rx="10" fill="#FFFFFF" stroke="#858072" stroke-width="1.0"/>
+<text x="800" y="557" font-size="13.5" font-weight="400" fill="#33312C" text-anchor="start">你自己的 rubric 草稿</text>
+<circle cx="54" cy="657" r="6" fill="none" stroke="#A8443C" stroke-width="1.6"/>
+<path d="M50 653 L58 661" stroke="#A8443C" stroke-width="1.6" fill="none"/>
+<text x="72" y="662" font-size="13.5" font-weight="400" fill="#726C60" text-anchor="start">谁都别从这里开始：把 113 条从头读完。</text>
 </svg>

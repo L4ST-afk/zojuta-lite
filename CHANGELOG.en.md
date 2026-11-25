@@ -4,6 +4,16 @@
 
 This repository is a **criteria-layer snapshot**, not the master library. In keeping with that, this file records only this repository's own landing and changes, and makes no claim to track the master.
 
+## 0.2.4 — 2026-11-25 (a Vudgio review pass; criteria untouched)
+
+- Contrast: column heads `#948D80` (3.10:1) to `#6E6857` (5.23:1); captions `#7A7469` (4.37:1) to `#726C60` (4.91:1); card and chip strokes `#C9C2B4` / `#D6CFC0` (1.67 / 1.35) to `#858072` (3.71 / 3.43).
+- Type: the generator's `%d` truncated 11.5 / 13.5 / 15.5 to integers; `%.1f` restores 12.5 / 13.5 / 15.5.
+- Layout: output cards now match the left column's height (64 to 96) with text centred; inter-chip arrows 14 to 22px.
+- Finish: the footer mark is drawn (stroked circle plus slash) instead of the character "✕"; both SVGs gained `title` and `desc`.
+- Wording: `过三条件` to `过三道关`, `阈值自反推` to `自推阈值`.
+- One narrow-screen note added under each README image (at 375 the whole diagram scales to 0.32; the table carries the content).
+- The four output arrows still start right after the last step rather than at one fixed x: fixing the start left 80-100px of dead space on the short rows, which reads worse than the original 75px spread in arrow length.
+
 ## 0.2.3 — 2026-11-25 (a reader-path diagram added; criteria untouched)
 
 - New `docs/readers-path.zh.svg` and `docs/readers-path.en.svg`: three kinds of reader, four paths, drawn as one row per path — who on the left, the two or three moves in the middle, the output on the right.
