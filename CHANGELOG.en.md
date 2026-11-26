@@ -4,6 +4,18 @@
 
 This repository is a **criteria-layer snapshot**, not the master library. In keeping with that, this file records only this repository's own landing and changes, and makes no claim to track the master.
 
+## 0.3.2 — 2026-11-27 (Minimal CI: only the numbers it claims)
+
+- **Problem**: this repo had no CI; volume and entry counts were tallied by hand, so a missed edit could leave the README and the disk disagreeing with nobody noticing.
+- **Change**: a single `quality-gate` job in `check.yml` judging three things — (1) `criteria/` must hold 17 volumes and 114 entries (`00-定名.md`'s `##` headings are sections, not criteria), and both READMEs must state those numbers; (2) every relative link resolves on disk; (3) no trailing whitespace, no CRLF.
+- **Why only these three**: this repo is a snapshot; criterion content belongs to the main library. What can rot here is exactly "claimed numbers vs disk" and "dirty files".
+- **Untouched**: 17 volumes, 114 entries, criterion text.
+
+## 0.3.1 — 2026-11-26 (Facade completion: contribution guide added, criteria untouched)
+
+- `CONTRIBUTING.md` added: snapshot-repo boundaries, the four-part shape of a criterion, numbers kept identical in three places, Chinese/English changed together, CC BY 4.0 attribution.
+- Criteria, volumes and entries untouched.
+
 ## 0.3.0 — 2026-11-26 (one-time alignment supplement: +1 entry, 113 → 114)
 
 - **One entry added after rewrite**: the new main-library delta was screened individually; "a failed precondition must override the conclusion" is filed in `01b`, keeping the four-part problem/mechanism/evidence/criterion structure and a redaction note.

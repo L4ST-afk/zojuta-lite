@@ -42,6 +42,7 @@ grep -c '^- \*\*' criteria/*.md       # 逐卷条数
 - **计数三处同源**：卷首条数、`README` 总条数、`CHANGELOG` 版本行里的数字，必须一致；
 - **中英同改**：动了 `README.md` 就动 `README.en.md`，`CHANGELOG` 同理；
 - **脱敏**：⛔ 工具名、内部路径、内部项目名、可反查的日期与精确读数——保留方法链，去掉身份信息。
+- **自证**：每次推送会跑 `.github/workflows/check.yml` 的 `quality-gate`——`criteria/` 必须 17 卷、114 条（`00-定名.md` 的小节不计条目），README 中英都写这两个数，相对链接能落地，文件无行尾空白与 CRLF。数字改一处就要三处同改，否则 CI 红。
 
 ## 许可
 

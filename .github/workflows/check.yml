@@ -1,0 +1,78 @@
+name: check
+
+# 快照仓的最小闸：不判内容对错，只判「自述的数字与磁盘一致、文件本身干净」。
+# 三条：卷数／条数三处同源、相对链接能落地、无行尾空白与 CRLF。
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: check-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality-gate:
+    name: quality-gate
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: 卷数／条数与自述对账
+        run: |
+          python3 - <<'PY'
+          import glob, os, re, sys
+          vols = sorted(glob.glob('criteria/*.md'))
+          # 00 卷是命名来历，其 ## 是小节不是判据 → 不计条目
+          entries = sum(len(re.findall(r'^## ', open(v, encoding='utf-8').read(), re.M))
+                        for v in vols if not os.path.basename(v).startswith('00-'))
+          bad = []
+          if len(vols) != 17: bad.append(f'卷数 {len(vols)} ≠ 17')
+          if entries != 114: bad.append(f'条数 {entries} ≠ 114')
+          for f, pat in (('README.md', r'17 卷'), ('README.md', r'114'), ('README.en.md', r'17 volumes'), ('README.en.md', r'114')):
+              if not re.search(pat, open(f, encoding='utf-8').read()):
+                  bad.append(f'{f} 未写 {pat}')
+          print(f'卷 {len(vols)}｜条 {entries}')
+          if bad:
+              print('✗', '；'.join(bad)); print('改数字三处同源：README 中英 + CHANGELOG'); sys.exit(1)
+          print('✓ 计数对账通过')
+          PY
+
+      - name: 相对链接落地
+        run: |
+          python3 - <<'PY'
+          import glob, os, re, sys
+          bad = []
+          for f in glob.glob('**/*.md', recursive=True):
+              t = open(f, encoding='utf-8').read()
+              for m in re.finditer(r'\]\(([^)#]+?)(?:#[^)]*)?\)', t):
+                  p = m.group(1).strip()
+                  if p.startswith(('http', 'mailto:')): continue
+                  if not os.path.exists(os.path.normpath(os.path.join(os.path.dirname(f), p))):
+                      bad.append(f'{f} -> {p}')
+          if bad: print('✗ 坏链', *bad, sep='\n  '); sys.exit(1)
+          print('✓ 链接全部落地')
+          PY
+
+      - name: 文件干净（无行尾空白、无 CRLF）
+        run: |
+          python3 - <<'PY'
+          import glob, sys
+          # 两处豁免：纯空白行不算脏；文本行以「恰好两个空格」收尾是 Markdown 硬换行，属有意。
+          bad = []
+          for f in glob.glob('**/*', recursive=True):
+              if not f.endswith(('.md', '.yml', '.json', '.txt', '.py', '.js')): continue
+              b = open(f, 'rb').read()
+              if b'\r\n' in b: bad.append(f'{f} 含 CRLF')
+              for i, ln in enumerate(b.decode('utf-8').split('\n'), 1):
+                  if not ln.strip(): continue
+                  if ln != ln.rstrip() and not ln.endswith('  ') or ln.endswith('   '):
+                      bad.append(f'{f}:{i} 行尾空白')
+          if bad: print('✗', *bad[:20], sep='\n  '); sys.exit(1)
+          print('✓ 文件干净')
+          PY
