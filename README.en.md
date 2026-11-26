@@ -13,7 +13,7 @@
 > *So it is taken as the method: trace its origin, demand its measurement, judge only what holds now;*
 > *no borrowed rhetoric, no imposed hierarchy — everything kept must still stand elsewhere.*
 
-This is the **criteria layer of the Zojuta main library** — a 2026-11-24 snapshot with a 2026-11-25 supplement, 17 volumes, 113 entries.
+This is the **criteria layer of the Zojuta main library** — a 2026-11-24 snapshot with supplements on 2026-11-25 and 2026-11-26, 17 volumes, 114 entries.
 
 Zojuta is a general-purpose mother tower of engineering method. The name comes from the East Pagoda on Jiangxin Island in Wenzhou — a tower whose eaves and galleries were stripped away, leaving only the skeleton, with a banyan at its crown standing in for the roof. The criteria layer inherits exactly that skeleton: keep only "which questions are worth asking", keep no ceremony.
 
@@ -23,7 +23,7 @@ The main library is not open source. Only the criteria themselves are here: whic
 
 ## What this is, and what it isn't
 
-**Is**: 113 criteria, each able to answer one question — *does this run of mine count as a violation?*
+**Is**: 114 criteria, each able to answer one question — *does this run of mine count as a violation?*
 
 **Isn't**: a checklist, a template, a best-practices collection.
 
@@ -109,7 +109,7 @@ One set of criteria, three very different sets of moves. ⛔ Don't borrow someon
 | **An agent**, wanting the model to hold the line itself | Rewrite **the criterion paragraph** as "must / must not" and put it in a system prompt or a gate description | the volume → criterion → rewrite | One condition that can be judged true or false |
 | **An author**, writing your own standard | Borrow the question, not the numbers; derive thresholds on your own ground | any similar volume | Your own rubric draft |
 
-⛔ What none of the three should do: read all 113 entries front to back. You won't retain them; you'll keep a few images instead.
+⛔ What none of the three should do: read all 114 entries front to back. You won't retain them; you'll keep a few images instead.
 
 ![Three kinds of reader, four different paths: self-check, review, agent rule source, author's own standard - each with its own entry point, moves and output](docs/readers-path.en.svg)
 
@@ -153,7 +153,7 @@ After those five steps you're not holding "a collection to read" — you're hold
 | What I'm doing | Go to | Ask this first |
 |---|---|---|
 | Setting a threshold, running a control | [`01a`](criteria/01a-阈值与对照.md) (9) | Is this floor back-derived from actual results, or copied from a document? |
-| Counting runs, measuring coverage, calibrating an instrument | [`01b`](criteria/01b-口径与计数.md) (9) | Is the counting convention defined first? Has the instrument been re-checked? |
+| Counting runs, measuring coverage, calibrating an instrument | [`01b`](criteria/01b-口径与计数.md) (10) | Is the counting convention defined first? Has the instrument been re-checked? |
 | Writing assertions, editing tests | [`02a`](criteria/02a-断言记账.md) (5) | Does it still pass with one assertion deleted? Is every non-PASS entry booked? |
 | Writing a gate, adding a check | [`02b`](criteria/02b-闸门设计.md) (9) | Has this gate ever gone red? Does red mean the world actually changed? |
 | Writing to disk, migrating, anything with side effects | [`05`](criteria/05-副作用与写入安全.md) (7) | What is the evidence before, during and after the write? |
@@ -162,7 +162,7 @@ After those five steps you're not holding "a collection to read" — you're hold
 | Chasing a nondeterministic bug, probing | [`08`](criteria/08-探测与瓶颈.md) (8) | Have you fixed the shape first, or are you burning calls? |
 | Moving data, archiving, changing machines | [`09`](criteria/09-迁移与归档.md) (3) | Is it a byte-for-byte move? Did the full hashes reconcile? |
 
-## Contents (17 volumes / 113 entries)
+## Contents (17 volumes / 114 entries)
 
 > This table is organised by volume, for orientation. If you have one specific thing in hand and don't know which volume, use "Find the volume by situation" above.
 
@@ -170,7 +170,7 @@ After those five steps you're not holding "a collection to read" — you're hold
 |---|---|---|
 | [`00-定名`](criteria/00-定名.md) | — | Where the name comes from (not criteria; sits at the front) |
 | [`01a-阈值与对照`](criteria/01a-阈值与对照.md) | 9 | Thresholds need a physical basis; comparisons must be same-source, same-environment |
-| [`01b-口径与计数`](criteria/01b-口径与计数.md) | 9 | Define the counting convention first; the measuring instrument needs checking too |
+| [`01b-口径与计数`](criteria/01b-口径与计数.md) | 10 | Define the counting convention first; the measuring instrument needs checking too |
 | [`02a-断言记账`](criteria/02a-断言记账.md) | 5 | Assertion-count floors, booking non-PASS results, criteria must be executable |
 | [`02b-闸门设计`](criteria/02b-闸门设计.md) | 9 | A gate must be able to go red, and red must mean the world changed |
 | [`03a-锚点与引用`](criteria/03a-锚点与引用.md) | 7 | Anchor validity needs a convention; an excerpt is evidence |
@@ -196,9 +196,9 @@ So they share one feature: **they all point at "looks right but isn't."** That's
 
 ## Snapshot notice
 
-**This repo takes the 2026-11-24 snapshot as its baseline, with one disciplined supplement on 2026-11-25: 113 entries. It still does not track the main library automatically.**
+**This repo takes the 2026-11-24 snapshot as its baseline, with disciplined supplements on 2026-11-25 and 2026-11-26: 114 entries. It still does not track the main library automatically.**
 
-The main library is still growing (374 entries at present), and the redaction screening was done entry by entry, not as an automated pipeline. So what you have here is "what this criteria set looks like," not "the latest version."
+The main library is still growing (394 entries at present), and the redaction screening was done entry by entry, not as an automated pipeline. So what you have here is "what this criteria set looks like," not "the latest version." Both supplements were one-time manual selections, not automatic synchronization.
 
 - Criteria are method, not software. Method doesn't need to follow version numbers.
 - Whether to add more later is a separate discussion. This repo makes no update-cadence commitment.
@@ -227,4 +227,4 @@ still counts as use and still needs attribution — but not the full licence tex
 
 ---
 
-**Zojuta Lite (禅院塔·籁)** · criteria-layer snapshot 2026-11-24 · supplemented 2026-11-25 · 113 entries / 17 volumes
+**Zojuta Lite (禅院塔·籁)** · criteria-layer snapshot 2026-11-24 · supplemented 2026-11-25 and 2026-11-26 · 114 entries / 17 volumes

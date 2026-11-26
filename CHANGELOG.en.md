@@ -4,6 +4,13 @@
 
 This repository is a **criteria-layer snapshot**, not the master library. In keeping with that, this file records only this repository's own landing and changes, and makes no claim to track the master.
 
+## 0.3.0 — 2026-11-26 (one-time alignment supplement: +1 entry, 113 → 114)
+
+- **One entry added after rewrite**: the new main-library delta was screened individually; "a failed precondition must override the conclusion" is filed in `01b`, keeping the four-part problem/mechanism/evidence/criterion structure and a redaction note.
+- **Filing and counts**: `01b` moves from 9 to 10 entries; the collection remains at 17 volumes and moves from 113 to 114 entries. Both README languages and their footers are updated.
+- **Boundary unchanged**: this remains a one-time, manually selected criteria-layer snapshot, not the start of automatic tracking; no runtime code is added.
+- **Redaction**: tool names, internal paths, dates and reverse-traceable precise readings are removed; the method chain of overriding conclusions, checking value domains, identifying parameter sources and rewriting conclusions is preserved.
+
 ## 0.2.4 — 2026-11-25 (a Vudgio review pass; criteria untouched)
 
 - Contrast: column heads `#948D80` (3.10:1) to `#6E6857` (5.23:1); captions `#7A7469` (4.37:1) to `#726C60` (4.91:1); card and chip strokes `#C9C2B4` / `#D6CFC0` (1.67 / 1.35) to `#858072` (3.71 / 3.43).
